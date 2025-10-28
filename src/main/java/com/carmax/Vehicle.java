@@ -10,9 +10,10 @@ public class Vehicle {
     private int fuelCapacity;
     private ArrayList<Wheel> wheels;
 
-//    public Vehicle(){
-//        System.out.println("I'm in the vehicle constructor");
-//    }
+    public Vehicle(){
+
+    }
+
 
     public Vehicle(String color, int numberOfPassengers, int cargoCapacity, int fuelCapacity, ArrayList<Wheel> wheels) {
         this.color = color;
